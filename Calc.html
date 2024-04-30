@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calc.css">
+    <script type="text/javascript" src="Calc.js"></script>
+</head>
+<body>
+    <div class="mainmain">
+        <div><input type="text" class="display" id="displayValue"></div>
+        <div class="main">
+            
+            <div>
+                <div class="cal "><button class="cal1" value="1" id="val1" onclick="number1('1')">1</button></div>
+                <div class="cal "><button class="cal1" value="4" id="val4" onclick="number1('4')">4</button></div>
+                <div class="cal "><button class="cal1" value="7" id="val7" onclick="number1('7')">7</button></div>
+                <div class="cal "><button class="cal1" value="0" id="val0" onclick="number1('0')">0</button></div>
+            </div>
+            <div>
+                <div class="cal"><button class="cal1" value="2" id="val2" onclick="number1('2')">2</button></div>
+                <div class="cal"><button class="cal1" value="5" id="val5" onclick="number1('5')">5</button></div>
+                <div class="cal"><button class="cal1" value="8" id="val8" onclick="number1('8')">8</button></div>
+                <div class="cal"><button class="cal1 operator" onclick="operator('/')" value="/" id="div">/</button></div>
+            </div>
+            <div>
+                <div class="cal"><button class="cal1" id="val3" value="3" onclick="number1('3')">3</button></div>
+                <div class="cal"><button class="cal1"  id="val6" value="6" onclick="number1('6')">6</button></div>
+                <div class="cal"><button class="cal1" id="val9" value="9" onclick="number1('9')">9</button></div>
+                <div class="cal"><button class="cal1 operator" onclick="operator('%')" value="%" id="mod()">%</button></div>
+            </div>
+            <div>
+                <div class="cal"><button class="cal1 operator" onclick="operator('+')" value="+" id="plus">+</button></div>
+                <div class="cal"><button class="cal1 operator" onclick="operator('-')" value="-" id="minus">-</button></div>
+                <div class="cal"><button class="cal1 operator" onclick="operator('*')" value="*" id="muls">*</button></div>
+                <div class="cal"><button class="cal1 operator" onclick="Result()" value="=" id="final">=</button></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

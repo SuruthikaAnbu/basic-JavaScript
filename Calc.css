@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    height: 40rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(128, 128, 128);
+}
+.cal{
+    display: flexbox;
+    height: 5rem;
+    
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 4rem;
+   
+}
+.cal1{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(244, 185, 240);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+   
+}
+.cal1:hover{
+    background-color: rgb(215, 46, 209);
+}
+.display{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 5px;
+    border: 2px solid gray;
+    width:35rem;
+    height: 4rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+.mainmain{
+    margin-left: 10rem;
+    height: 40rem;
+    width: 35rem;
+    box-shadow: 5px solid black;
+}
